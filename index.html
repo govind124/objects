@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+    <style>
+        h1{
+            text-decoration: underline;
+            text-align: center;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        body{
+            background-color: greenyellow;
+        }
+        h4{
+          background-color:white;
+        }
+    </style>
+</head>
+<body>
+      <h1>Objects</h1>
+
+      <h2>Que1:Create a Function</h2>
+      <b>Complete the function in the editor. In which you are given one object as a parameter, in that object, there is a data member named name.
+        Your task is to create a method inside this object named setter,such that this method will print the value of the data member named as name.
+      </b>
+      <h4><B><pre>
+        obj1.setter = function(){
+            console.log(this.name)
+          }
+      </pre></B></h4>
+      <h2>Que2:Delete a Parameter</h2>
+      <b>Complete the function in the editor. You have an object as a parameter. In which you have to delete the rollno property from the object and return the object.</b>
+      <h4><B><pre>
+        delete obj1.rollno;
+        return "True"
+      </pre></B></h4>      
+      <h2>Que3:Check whether the Package is Dream Package or not</h2>
+      <b>Complete the function in the editor. In which you are given an object as a parameter.
+        In that object, there is one property named as salary if the salary is maximum than 5 lakh then return "Dream" otherwise  return "NotDream".</b>
+      <h4><B><pre>
+        if(obj1.salary>500000){
+            return "Dream"
+          }else{
+            return "NotDream"
+          } 
+      </pre></B></h4>      
+      <h2>Que4:Check whether the Object has a parameter or not    </h2>
+      <b>Complete the function in the editor. In which you are given an object as a parameter. You have to return "false" if there is no parameter in the object otherwise return "true".    </b>
+      <h4><B><pre>
+        if(Object.keys(obj1).length>0){
+    
+            return "true"
+          
+            }else{
+            
+            return "false"
+          }
+      </pre></B></h4>      
+      <h2>Que5:Merge the Objects    </h2>
+      <b>Complete the function in the editor. In which you are given two objects as a parameter.In which you have to merge two objects and return a single object.    </b>
+      <h4><B><pre>
+        return Object.assign(obj1, obj2);
+      </pre></B></h4>      
+      <h2>Que6:Object Multiplyer    </h2>
+      <b>Complete the function in the editor. In which you are given an object and a digit N as a parameter.In the object there are two variable id and houseno are defined as a data member. You have to multiply both the data members with a given digit N.    </b>
+      <h4><B><pre>
+        obj1.id = obj1.id*a;
+        obj1.houseno = obj1.houseno*a;
+        return obj1;
+      </pre></B></h4>      
+      <h2>Que7:Find the  sum of Object Members    </h2>
+      <b>You are given a function Check which takes an object Obj as a parameter.
+        Your taks is to find out the sum of the three data members of the object. The data members are named as p1, p2, p3.    </b><br>
+        <b>Note: You have to complete Check function. No need to take any input.        </b>
+      <h4><B><pre>
+        return (obj1.p1+obj1.p2+obj1.p3);
+      </pre></B></h4>      
+      <h2>Que8:Check whether the Objects are same or not.</h2>
+      <b>Complete the function in the editor. In which you are given an object as a parameter. That object contains two variables name and id.
+        Your task is to compare the object name and id to the new_name and new_id given there as a parameter.
+        Return "true" if new_name and id are same as objects name and id otherwise return  "false".</b>
+      <h4><B><pre>
+        if ((obj1.name === a)&&(obj1.id === b)){
+            return true
+          }else{
+            return false
+          }
+      </pre></B></h4>
+
+    </body>
+</html>
